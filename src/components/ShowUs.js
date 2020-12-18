@@ -33,18 +33,20 @@ const ShowUs = () => {
 };
 
 const Show = styled.div`
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space;
-    padding: 5rem 5rem;
+    padding: 3rem 3rem;
 `;
 
 const Img = styled.div`
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 5rem 0rem;
 `;
 
 const Img1 = styled.div`
+    object-fit: cover;
+    padding: 0rem 0rem 2rem 0rem;
     flex: 1;
     img {
         height: 36vh;
@@ -63,10 +65,10 @@ const Img2 = styled.div`
 `;
 
 const Convite = styled.h2`
-    padding: 10rem 0rem 10rem 0rem;
+    padding: 10rem 0rem;
 `;
 
 const Title = styled.div`
-    padding: 5rem 0rem 15rem 5rem;
+    padding: 5rem;
 `;
 export default ShowUs;

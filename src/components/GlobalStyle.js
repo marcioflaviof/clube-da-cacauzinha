@@ -8,7 +8,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: #FFFF
+        background: #FFFF;
+        font-family:'Montserrat', sans-serif ;
     }
 
     button {
@@ -21,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
         background: #FF988C;
         color: white;
         transition: all 0.5s ease;
+        font-family:'Montserrat', sans-serif ;
         &:hover{
             background-color: #FF988C;
             color: white;
@@ -41,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     p {
-        padding: 3rem 0rem;
+        padding: 2rem 0rem;
         color: #FF988C;
         font-size: 1.5rem;
     }

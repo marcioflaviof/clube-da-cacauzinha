@@ -31,10 +31,11 @@ const About = styled.div`
 
 const Img = styled.div`
     flex: 1;
+    object-fit: cover;
 `;
 
 const Paragraph = styled.p`
-    padding: 2rem 4rem 2rem 1rem;
+    padding: 2rem 5rem;
 `;
 
 export default AboutSection;
