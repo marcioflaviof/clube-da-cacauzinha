@@ -3,6 +3,7 @@ import cachorrinhas from "../img/cachorrinhas.jpg";
 import amora_brinquedo from "../img/amora_brinquedo.jpg";
 import reuniao_dogs from "../img/reuniao_dogs.jpg";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const ShowUs = () => {
     return (
@@ -14,8 +15,9 @@ const ShowUs = () => {
                             Diversas doguinhas ja vieram passar um tempo nesse
                             clube.
                         </h1>
-
-                        <Convite>Venha nos conhecer!</Convite>
+                        <Link to="/contact">
+                            <Convite>Venha nos conhecer!</Convite>
+                        </Link>
                     </Title>
                 </div>
                 <Img>
@@ -65,6 +67,7 @@ const Img2 = styled.div`
 `;
 
 const Convite = styled.h2`
+    text-decoration: underline;
     padding: 10rem 0rem;
 `;
 
