@@ -10,26 +10,70 @@ import styled from "styled-components";
 const ContactSection = () => {
     return (
         <>
-            <h2>Entre em contato com a gente</h2>
-            <Icons>
-                <img width="70" height="70" src={instaIcon} alt="Instagram" />
-                <img id="whats" src={whatsIcon} alt="Whatsapp" />
-                <img src={paw} alt="DogHero" />
-            </Icons>
+            <Title>Entre em contato com a gente</Title>
 
-            <img src={undraw_woman} alt="woman with a dog" />
+            <Insta>
+                <p>Instagram</p>
+                <img src={instaIcon} alt="Instagram" />
+            </Insta>
+
+            <Whats>
+                <p>Whatsapp</p>
+                <img src={whatsIcon} alt="Whatsapp" />
+            </Whats>
+
+            <DogHero>
+                <p>DogHero</p>
+                <img src={paw} alt="DogHero" />
+            </DogHero>
+
+            <Img src={undraw_woman} alt="woman with a dog" />
         </>
     );
 };
 
 export default ContactSection;
 
-const Icons = styled.div`
+const Img = styled.img`
+    margin-top: 5rem;
+    position: relative;
+    float: right;
+    top: -33rem;
+`;
+
+const Title = styled.h1`
+    padding-left: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+`;
+
+const Insta = styled.div`
+    overflow: hidden;
+    position: relative;
+    padding-left: 17rem;
+    float: left;
     img {
-        width: 6.9vh;
-        height: 6.9vh;
-        .whats {
-            fill: green;
-        }
+        display: block;
+        margin: 0 auto;
+    }
+`;
+
+const Whats = styled.div`
+    overflow: hidden;
+    position: relative;
+    padding-left: 5rem;
+    img {
+        display: block;
+        margin: 0 20px;
+    }
+`;
+
+const DogHero = styled.div`
+    overflow: hidden;
+    position: relative;
+    padding-left: 24rem;
+    img {
+        display: block;
+        margin: 0 16px;
     }
 `;

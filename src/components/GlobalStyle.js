@@ -42,7 +42,14 @@ const GlobalStyle = createGlobalStyle`
         color: #FF988C
     }
 
+    h3{
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #FF988C
+    }
+
     p {
+        font-weight: bold;
         padding: 2rem 0rem;
         color: #FF988C;
         font-size: 1.5rem;
