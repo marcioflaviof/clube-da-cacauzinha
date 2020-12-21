@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         background: #FFFF;
-        font-family:'Montserrat', sans-serif ;
+        font-family:'Montserrat', sans-serif;
     }
 
     button {

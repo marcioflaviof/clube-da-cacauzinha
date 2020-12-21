@@ -35,22 +35,21 @@ const ContactSection = () => {
 export default ContactSection;
 
 const Img = styled.img`
-    margin-top: 5rem;
+    margin-top: -30.2rem;
     position: relative;
     float: right;
-    top: -33rem;
+    margin-right: 5rem;
 `;
 
 const Title = styled.h1`
-    padding-left: 10rem;
-    padding-top: 7rem;
-    padding-bottom: 5rem;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
 `;
 
 const Insta = styled.div`
-    overflow: hidden;
     position: relative;
-    padding-left: 17rem;
+    margin-left: 17rem;
     float: left;
     img {
         display: block;
@@ -61,7 +60,7 @@ const Insta = styled.div`
 const Whats = styled.div`
     overflow: hidden;
     position: relative;
-    padding-left: 5rem;
+    margin-left: 29rem;
     img {
         display: block;
         margin: 0 20px;
@@ -71,7 +70,7 @@ const Whats = styled.div`
 const DogHero = styled.div`
     overflow: hidden;
     position: relative;
-    padding-left: 24rem;
+    margin-left: 24rem;
     img {
         display: block;
         margin: 0 16px;
