@@ -14,17 +14,38 @@ const ContactSection = () => {
 
             <Insta>
                 <p>Instagram</p>
-                <img src={instaIcon} alt="Instagram" />
+                <a
+                    href={"https://www.instagram.com/clube.da.cacauzinha/"}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    {" "}
+                    <img src={instaIcon} alt="Instagram" />
+                </a>
             </Insta>
 
             <Whats>
                 <p>Whatsapp</p>
-                <img src={whatsIcon} alt="Whatsapp" />
+                <a
+                    href={"https://wa.me/556195884776"}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img src={whatsIcon} alt="Whatsapp" />
+                </a>
             </Whats>
 
             <DogHero>
                 <p>DogHero</p>
-                <img src={paw} alt="DogHero" />
+                <a
+                    href={
+                        "https://www.doghero.com.br/heroi/205792-Clube-da-Cacauzinha---Asa-Sul"
+                    }
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <img src={paw} alt="DogHero" />
+                </a>
             </DogHero>
 
             <Img src={undraw_woman} alt="woman with a dog" />
