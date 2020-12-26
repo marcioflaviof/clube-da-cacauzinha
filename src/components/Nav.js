@@ -20,9 +20,6 @@ const Nav = () => {
                 <li>
                     <Link to="/contact">Contato</Link>
                 </li>
-                <li>
-                    <Link to="/gallery">Galeria</Link>
-                </li>
             </ul>
         </StyledNav>
     );

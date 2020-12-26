@@ -5,7 +5,6 @@ import GlobalStyle from "./components/GlobalStyle";
 //Import Pages
 import Presentation from "./pages/Presentation";
 import AboutUs from "./pages/AboutUs";
-import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import Nav from "./components/Nav";
 
@@ -26,9 +25,6 @@ function App() {
                 </Route>
                 <Route path="/contact">
                     <ContactUs />
-                </Route>
-                <Route path="/gallery">
-                    <Gallery />
                 </Route>
             </Switch>
         </div>
