@@ -9,8 +9,8 @@ import styled from "styled-components";
 
 const ContactSection = () => {
     return (
-        <>
-            <Title>Entre em contato com a gente</Title>
+        <MyDiv>
+            <Title>Entre em contato com a gente.</Title>
 
             <Insta>
                 <p>Instagram</p>
@@ -49,11 +49,21 @@ const ContactSection = () => {
             </DogHero>
 
             <Img src={undraw_woman} alt="woman with a dog" />
-        </>
+        </MyDiv>
     );
 };
 
 export default ContactSection;
+
+const MyDiv = styled.div`
+    @media (max-width: 1375px) {
+        display: block;
+
+        img {
+            display: none;
+        }
+    }
+`;
 
 const Img = styled.img`
     margin-top: -30.2rem;
@@ -66,6 +76,9 @@ const Title = styled.h1`
     margin-left: 10rem;
     margin-top: 7rem;
     margin-bottom: 5rem;
+    @media (max-width: 1375px) {
+        margin: 2rem 2rem;
+    }
 `;
 
 const Insta = styled.div`
@@ -75,6 +88,16 @@ const Insta = styled.div`
     img {
         display: block;
         margin: 0 auto;
+    }
+
+    @media (max-width: 1375px) {
+        float: none;
+        margin-left: 3rem;
+
+        img {
+            display: inline;
+            margin: 0;
+        }
     }
 `;
 
@@ -86,14 +109,33 @@ const Whats = styled.div`
         display: block;
         margin: 0 20px;
     }
+
+    @media (max-width: 1375px) {
+        float: right;
+        margin-top: -9.5rem;
+        margin-right: 3rem;
+
+        img {
+            display: inline;
+            margin: 0;
+        }
+    }
 `;
 
 const DogHero = styled.div`
-    overflow: hidden;
     position: relative;
-    margin-left: 24rem;
+    margin-left: 23rem;
     img {
         display: block;
         margin: 0 16px;
+    }
+
+    @media (max-width: 1375px) {
+        float: none;
+        margin-left: 8.5rem;
+
+        img {
+            margin: 0;
+        }
     }
 `;

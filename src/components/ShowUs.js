@@ -56,10 +56,9 @@ const Show = styled.div`
         }
 
         h2 {
-            text-align: left;
-            padding-left: 3rem;
-            padding-top: 1rem;
-            padding-bottom: 2rem;
+            margin-left: 3rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
         }
 
         img {
@@ -108,8 +107,8 @@ const Img2 = styled.div`
 
 const Convite = styled.h2`
     text-decoration: underline;
-    padding-top: 10rem;
-    padding-left: 10rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
 `;
 
 const Title = styled.div`
