@@ -28,7 +28,7 @@ const About = styled.div`
     padding: 5rem 5rem;
     color: #ff988c;
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: block;
         padding: 3rem;
         margin-left: -1.5rem;

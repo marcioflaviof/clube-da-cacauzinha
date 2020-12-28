@@ -28,7 +28,7 @@ const Img = styled.img`
     float: right;
     padding-right: 5rem;
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         float: center;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -52,7 +52,7 @@ const Mydiv = styled.div`
         margin-left: 15rem;
     }
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         float: center;
         h1 {
             padding-top: 1rem;

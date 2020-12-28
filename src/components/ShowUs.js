@@ -39,7 +39,7 @@ const Show = styled.div`
     justify-content: space;
     padding: 3rem 3rem;
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: table;
         padding: 0rem;
         margin-left: -1.25rem;
@@ -69,7 +69,7 @@ const Show = styled.div`
 
 const Img = styled.div`
     padding: 0rem 0rem 5rem 0rem;
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: table-footer-group;
     }
 `;
@@ -82,7 +82,7 @@ const Img1 = styled.div`
         height: 36vh;
         width: 55.5vh;
     }
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         padding: 0;
     }
 `;
@@ -95,7 +95,7 @@ const Img2 = styled.div`
         height: 30vh;
         width: 27.75vh;
     }
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         padding: 0;
         padding-left: 2rem;
         img {
@@ -114,7 +114,7 @@ const Convite = styled.h2`
 const Title = styled.div`
     padding-left: 10rem;
     padding-bottom: 5rem;
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: table-header-group;
     }
 `;

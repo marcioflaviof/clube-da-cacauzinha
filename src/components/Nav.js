@@ -74,7 +74,7 @@ const StyledNav = styled.nav`
         }
     }
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: none;
     }
 `;

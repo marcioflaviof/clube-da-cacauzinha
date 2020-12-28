@@ -56,7 +56,7 @@ const ContactSection = () => {
 export default ContactSection;
 
 const MyDiv = styled.div`
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         display: block;
 
         img {
@@ -76,7 +76,7 @@ const Title = styled.h1`
     margin-left: 10rem;
     margin-top: 7rem;
     margin-bottom: 5rem;
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         margin: 2rem 2rem;
     }
 `;
@@ -90,7 +90,7 @@ const Insta = styled.div`
         margin: 0 auto;
     }
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         float: none;
         margin-left: 3rem;
 
@@ -110,10 +110,10 @@ const Whats = styled.div`
         margin: 0 20px;
     }
 
-    @media (max-width: 1375px) {
-        float: right;
+    @media (max-width: 768px) {
+        float: none;
         margin-top: -9.5rem;
-        margin-right: 3rem;
+        margin-left: 14rem;
 
         img {
             display: inline;
@@ -130,7 +130,7 @@ const DogHero = styled.div`
         margin: 0 16px;
     }
 
-    @media (max-width: 1375px) {
+    @media (max-width: 768px) {
         float: none;
         margin-left: 8.5rem;
 
