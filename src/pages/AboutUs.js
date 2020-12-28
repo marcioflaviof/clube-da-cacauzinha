@@ -16,4 +16,6 @@ const AboutUs = () => {
 
 export default AboutUs;
 
-const Div = styled.div``;
+const Div = styled.div`
+    background-color: whitesmoke;
+`;

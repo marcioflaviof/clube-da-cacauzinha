@@ -1,15 +1,22 @@
 import { React } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import undraw_woman from "../img/undraw_woman.png";
 
 const Nav = () => {
     return (
         <StyledNav>
-            <h1>
+            <div>
                 <Link id="logo" to="/">
-                    Clube da Cacauzinha
+                    <img src={undraw_woman} alt="woman with a dog" />
                 </Link>
-            </h1>
+
+                <h1>
+                    <Link id="logo" to="/">
+                        Clube da Cacauzinha
+                    </Link>
+                </h1>
+            </div>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -31,17 +38,18 @@ const StyledNav = styled.nav`
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 7rem;
-    background: #ff988c;
+    padding: 0rem 7rem;
+    background: whitesmoke;
     font-weight: bold;
     a {
-        color: black;
+        color: #302e2e;
         text-decoration: none;
     }
 
     ul {
         display: flex;
         list-style: none;
+        font-size: 1.25rem;
     }
 
     #logo {
@@ -52,6 +60,22 @@ const StyledNav = styled.nav`
 
     li {
         padding-left: 1rem;
+    }
+    div {
+        flex: 1;
+        display: flex;
+
+        h1 {
+            padding-left: 1rem;
+        }
+        img {
+            height: 7vh;
+            width: 7vh;
+        }
+    }
+
+    @media (max-width: 1375px) {
+        display: none;
     }
 `;
 

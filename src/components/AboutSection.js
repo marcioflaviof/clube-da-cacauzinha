@@ -27,6 +27,23 @@ const About = styled.div`
     justify-content: space;
     padding: 5rem 5rem;
     color: #ff988c;
+
+    @media (max-width: 1375px) {
+        display: block;
+        padding: 3rem;
+        margin-left: -1.5rem;
+        p {
+            text-align: left;
+            padding: 0rem;
+            padding-top: 1rem;
+        }
+
+        img {
+            padding: 1rem;
+            height: 45vh;
+            width: 45vh;
+        }
+    }
 `;
 
 const Img = styled.div`
